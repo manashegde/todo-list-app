@@ -1,8 +1,7 @@
+import TodoList from "./pages/TodoList/TodoList"
 function App() {
   return (
-    <>
-    {/* <TodoList/> component will come here */}
-    </>
+    <TodoList/>
   );
 }
 

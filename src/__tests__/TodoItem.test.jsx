@@ -1,5 +1,5 @@
 import TodoItem from "../components/TodoItem/TodoItem";
-import { render, screen, logRoles, fireEvent } from "@testing-library/react";
+import { render, screen, fireEvent } from "@testing-library/react";
 const todoItemProps = {
   id: 1,
   title: "Learn React",
