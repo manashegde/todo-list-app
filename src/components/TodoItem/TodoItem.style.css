@@ -1,0 +1,19 @@
+.todo-item-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 2%;
+    width: 100%;
+    margin-bottom: 1%;
+}
+.todo-title{
+    flex: 1;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.completed-todo{
+    text-decoration: line-through;
+}
